@@ -27,7 +27,7 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=506fadb0256c13349acc05
     })
 })
 
-fetch('https://api.themoviedb.org/3/movie/popular?api_key=<<SUA API KEY>>&language=en-US&page=2')
+fetch('https://api.themoviedb.org/3/movie/popular?api_key=<<506fadb0256c13349acc05dabebf9604&language=en-US&page=2')
 .then(response => response.json())
 .then(data =>{
     data.results.map((i, j) => {
@@ -54,7 +54,7 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=<<SUA API KEY>>&langua
     })
 })
 
-fetch('https://api.themoviedb.org/3/movie/popular?api_key=<<SUA API KEY>>&language=en-US&page=3')
+fetch('https://api.themoviedb.org/3/movie/popular?api_key=506fadb0256c13349acc05dabebf9604&language=en-US&page=3')
 .then(response => response.json())
 .then(data =>{
     data.results.map((i, j) => {
