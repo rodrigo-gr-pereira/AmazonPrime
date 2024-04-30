@@ -1,3 +1,0 @@
-TMDB
-ultilizador : rodrigogpereira
-senha: leao
